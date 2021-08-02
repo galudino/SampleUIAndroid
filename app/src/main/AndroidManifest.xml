@@ -10,7 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SampleUIAndroid">
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.LeftButtonActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.RightButtonActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
