@@ -4,4 +4,6 @@
     <string name="textViewLabelLeft">Go to Activity 1 (coming soon!)</string>
     <string name="imageButtonRight">Activity 2</string>
     <string name="textViewLabelRight">Go to Activity 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

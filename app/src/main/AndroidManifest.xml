@@ -11,13 +11,19 @@
         android:theme="@style/Theme.SampleUIAndroid">
         <activity
             android:name=".activity.LeftButtonActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:screenOrientation="userLandscape"
+            />
         <activity
             android:name=".activity.RightButtonActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:screenOrientation="userLandscape"
+            />
         <activity
             android:name=".activity.MainMenuActivity"
-            android:exported="true">
+            android:exported="true"
+            android:screenOrientation="userLandscape"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

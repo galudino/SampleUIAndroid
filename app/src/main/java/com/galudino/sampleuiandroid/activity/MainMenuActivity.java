@@ -25,16 +25,17 @@ public class MainMenuActivity extends AppCompatActivity {
     }
 
     private void initializeWidgets() {
+        /*
         textViewLabelLeft = findViewById(R.id.textViewLabelLeft);
         textViewLabelLeft.setTag(R.string.textViewLabelLeft);
 
         textViewLabelRight = findViewById(R.id.textViewLabelRight);
         textViewLabelRight.setTag(R.string.textViewLabelRight);
-
-        imageButtonLeft = findViewById(R.id.imageButtonLeft);
+        */
+        imageButtonLeft = findViewById(R.id.imageButtonLeftMainMenu);
         imageButtonLeft.setTag(R.string.imageButtonLeft);
 
-        imageButtonRight = findViewById(R.id.imageButtonRight);
+        imageButtonRight = findViewById(R.id.imageButtonRightMainMenu);
         imageButtonRight.setTag(R.string.imageButtonRight);
     }
 
