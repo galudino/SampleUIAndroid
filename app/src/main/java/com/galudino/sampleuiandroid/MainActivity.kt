@@ -10,12 +10,15 @@ package com.galudino.sampleuiandroid
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.galudino.sampleuiandroid.databinding.ActivityMainBinding
 
 /**
  * @class   MainActivity
  * @brief   First activity to run; encapsulates entry point of application.
  */
 class MainActivity : AppCompatActivity() {
+    private lateinit var _binding: ActivityMainBinding
+
     /**
      * {@inheritDoc}
      *
@@ -23,6 +26,6 @@ class MainActivity : AppCompatActivity() {
      */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        _binding = ActivityMainBinding.inflate(layoutInflater)
     }
 }
