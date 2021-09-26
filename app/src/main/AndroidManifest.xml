@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    AndroidManifest.xml
+    Manifest file
+
+    Gemuele Aludino
+    26 Sep 2021
+-->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.galudino.sampleuiandroid">
 
@@ -10,20 +17,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SampleUIAndroid">
         <activity
-            android:name=".activity.LeftButtonActivity"
-            android:exported="true"
-            android:screenOrientation="userLandscape"
-            />
-        <activity
-            android:name=".activity.RightButtonActivity"
-            android:exported="true"
-            android:screenOrientation="userLandscape"
-            />
-        <activity
-            android:name=".activity.MainMenuActivity"
-            android:exported="true"
-            android:screenOrientation="userLandscape"
-            >
+            android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

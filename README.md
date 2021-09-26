@@ -7,13 +7,12 @@ Skeleton for a mobile UI; contains a splash screen, and main application with a 
 - Minimum SDK: 29
 - Target SDK: 30
 - Compile Options
-    - Source compatibility: Java 1.8
-    - Target compatibility: Java 1.8
-    
+    - Source compatibility: Kotlin 1.5.21
+    - Target compatibility: Kotlin 1.5.21
+
 Tested on a Samsung SM-T290 (Samsung Galaxy Tab A 8.0", 1280 x 800 WXGA)
 
 ## Requirements
-- Java SDK 1.8
 - Gradle
 - Android Studio
 - Android SDK 30
